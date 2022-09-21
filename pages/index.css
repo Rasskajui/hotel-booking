@@ -1,0 +1,6 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/Inter/inter.css);
+@import url(../vendor/fonts/Montserrat/montserrat.css);
+
+@import url(../blocks/page/page.css);
