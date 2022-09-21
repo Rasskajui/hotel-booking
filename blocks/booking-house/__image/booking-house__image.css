@@ -6,7 +6,8 @@
 }
 
 .booking-house__image:nth-child(2) {
-  transform: translateY(81px);
+  position: relative;
+  top: 81px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -16,7 +17,7 @@
   }
 
   .booking-house__image:nth-child(2) {
-    transform: translateY(calc(0.15 * 100vw * 0.45));
+    top:calc(0.15 * 100vw * 0.45);
   }
 }
 
@@ -27,6 +28,6 @@
   }
 
   .booking-house__image:nth-child(2) {
-    transform: translateY(calc(0.23 * 100vw * 0.45));
+    top: calc(0.23 * 100vw * 0.45);
   }
 }

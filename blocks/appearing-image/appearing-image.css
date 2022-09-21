@@ -1,0 +1,13 @@
+@keyframes appearing-image{
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 588px;
+  }
+}
+
+.appearing-image {
+  animation: appearing-image .8s ease-in ;
+}

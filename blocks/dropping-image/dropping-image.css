@@ -1,0 +1,15 @@
+@keyframes dropping-image {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.dropping-image {
+  animation: dropping-image .8s ease-in;
+}
