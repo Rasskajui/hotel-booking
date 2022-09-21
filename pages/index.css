@@ -8,6 +8,12 @@
 @import url(../blocks/container/container.css);
 @import url(../blocks/button/button.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__button/header__button.css);
+
 @import url(../blocks/booking-house/booking-house.css);
 @import url(../blocks/booking-house/__title/booking-house__title.css);
 @import url(../blocks/booking-house/__text/booking-house__text.css);

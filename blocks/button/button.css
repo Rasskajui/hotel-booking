@@ -16,17 +16,23 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 665px){
+@media screen and (max-width: 768px){
   .button {
     padding: 14px 28px;
     font-size: 14px;
   }
 }
 
+@media screen and (max-width: 665px){
+  .button {
+    padding: 14px 28px;
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 470px){
   .button {
     padding: 12px 24px;
-    font-size: 12px;
   }
 }
 
