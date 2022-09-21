@@ -1,0 +1,5 @@
+.booking-house__images {
+  display: flex;
+  gap: 24px;
+  flex-wrap: nowrap;
+}

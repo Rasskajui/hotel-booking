@@ -4,3 +4,14 @@
 @import url(../vendor/fonts/Montserrat/montserrat.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/container/container.css);
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/booking-house/booking-house.css);
+@import url(../blocks/booking-house/__title/booking-house__title.css);
+@import url(../blocks/booking-house/__text/booking-house__text.css);
+@import url(../blocks/booking-house/__subtitle/booking-house__subtitle.css);
+@import url(../blocks/booking-house/__images/booking-house__images.css);
+@import url(../blocks/booking-house/__image/booking-house__image.css);
+

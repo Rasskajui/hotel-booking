@@ -3,8 +3,8 @@
   font-style:  normal;
   font-weight: 600;
   font-display: swap;
-  src: url("Montserrat-Bold.woff2") format("woff2"),
-       url("Montserrat-Bold.woff") format("woff");
+  src: url("Montserrat-SemiBold.woff2") format("woff2"),
+       url("Montserrat-SemiBold.woff") format("woff");
 }
 
 @font-face {
