@@ -2,3 +2,9 @@
   max-width: 587px;
   text-align: left;
 }
+
+@media screen and (max-width: 1024px) {
+  .booking-house__text {
+    text-align: center;
+  }
+}

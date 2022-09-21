@@ -1,3 +1,32 @@
+.booking-house__image {
+  width: 180px;
+  height: 588px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .booking-house__image:nth-child(2) {
   transform: translateY(81px);
+}
+
+@media screen and (max-width: 1280px) {
+  .booking-house__image {
+    width: calc(0.15 * 100vw);
+    height: calc(0.15 * 100vw / 0.306);
+  }
+
+  .booking-house__image:nth-child(2) {
+    transform: translateY(calc(0.15 * 100vw * 0.45));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .booking-house__image {
+    width: calc(0.23 * 100vw);
+    height: calc(0.23 * 100vw / 0.306);
+  }
+
+  .booking-house__image:nth-child(2) {
+    transform: translateY(calc(0.23 * 100vw * 0.45));
+  }
 }
