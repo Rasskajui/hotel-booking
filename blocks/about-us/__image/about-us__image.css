@@ -1,0 +1,22 @@
+.about-us__image {
+  width: 384px;
+  height: 576px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1280px) {
+  .about-us__image {
+    width: calc(0.4 * 100vw);
+    height: calc(1.5 * 0.4 * 100vw);
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .about-us__image {
+    width: calc(0.6 * 100vw);
+    height: calc(1.5 * 0.6 * 100vw);
+    order: 2;
+    align-self: flex-end;
+  }
+}

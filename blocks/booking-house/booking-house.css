@@ -8,8 +8,6 @@
 
 @media screen and (max-width: 1280px) {
   .booking-house{
-    padding-left: 30px;
-    padding-right: 30px;
     gap: 30px;
   }
 }
@@ -26,5 +24,6 @@
 @media screen and (max-width: 665px) {
   .booking-house{
     gap: 50px;
+    padding-bottom: 90px;
   }
 }
