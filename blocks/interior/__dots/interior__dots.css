@@ -1,0 +1,12 @@
+.interior__dots {
+  position: absolute;
+  bottom: 29px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .interior__dots {
+    bottom: 20px;
+  }
+}

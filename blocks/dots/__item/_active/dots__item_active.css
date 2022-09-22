@@ -1,0 +1,16 @@
+.dots__item_active {
+  background: #FAB047;
+  width: 12px;
+  height: 12px;
+}
+
+.dots__item_active:hover {
+  background: #FAB047;
+}
+
+@media screen and (max-width: 768px) {
+  .dots__item_active {
+    width: 10px;
+    height: 10px;
+  }
+}

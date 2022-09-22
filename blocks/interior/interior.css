@@ -1,0 +1,15 @@
+.interior {
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .interior {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .interior {
+    padding-top: 10px;
+  }
+}

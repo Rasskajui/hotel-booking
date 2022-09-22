@@ -1,0 +1,20 @@
+.dots__item {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .1s ease-in;
+}
+
+.dots__item:hover {
+  background-color: #ffdeb0;
+}
+
+@media screen and (max-width: 768px) {
+  .dots__item {
+    width: 6px;
+    height: 6px;
+  }
+}
+

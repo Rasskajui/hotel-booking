@@ -1,0 +1,23 @@
+.interior__photos {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 76% 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .interior__photos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .interior__photos {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+  }
+}

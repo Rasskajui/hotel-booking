@@ -39,3 +39,16 @@
 @import url(../blocks/benefits/__text/benefits__text.css);
 @import url(../blocks/benefits/__title/benefits__title.css);
 @import url(../blocks/benefits/__image/benefits__image.css);
+
+@import url(../blocks/dots/dots.css);
+@import url(../blocks/dots/__item/dots__item.css);
+@import url(../blocks/dots/__item/_theme/dots__item_theme_dark.css);
+@import url(../blocks/dots/__item/_active/dots__item_active.css);
+
+@import url(../blocks/interior/interior.css);
+@import url(../blocks/interior/__title/interior__title.css);
+@import url(../blocks/interior/__photos/interior__photos.css);
+@import url(../blocks/interior/__photo/interior__photo.css);
+@import url(../blocks/interior/__photos-item/interior__photos-item.css);
+@import url(../blocks/interior/__photos-item/_active/interior__photos-item_active.css);
+@import url(../blocks/interior/__dots/interior__dots.css);

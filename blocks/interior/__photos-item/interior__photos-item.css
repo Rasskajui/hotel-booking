@@ -1,0 +1,17 @@
+.interior__photos-item {
+  grid-column: 2/-1;
+}
+
+@media screen and (max-width: 768px) {
+  .interior__photos-item {
+    grid-column: auto;
+    grid-row: 2/-1;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .interior__photos-item {
+    grid-column: 3/3;
+    grid-row: 3/3;
+  }
+}
