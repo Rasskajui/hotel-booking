@@ -20,3 +20,9 @@
     align-self: flex-end;
   }
 }
+
+@media screen and (max-width: 448px) {
+  .about-us__image {
+    align-self: center;
+  }
+}
