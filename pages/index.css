@@ -52,3 +52,14 @@
 @import url(../blocks/interior/__photos-item/interior__photos-item.css);
 @import url(../blocks/interior/__photos-item/_active/interior__photos-item_active.css);
 @import url(../blocks/interior/__dots/interior__dots.css);
+
+@import url(../blocks/reservation/reservation.css);
+@import url(../blocks/reservation/__text/reservation__text.css);
+@import url(../blocks/reservation/__title/reservation__title.css);
+@import url(../blocks/reservation/__paragraph/reservation__paragraph.css);
+@import url(../blocks/reservation/__cards/reservation__cards.css);
+@import url(../blocks/reservation/__card/reservation__card.css);
+@import url(../blocks/reservation/__image/reservation__image.css);
+@import url(../blocks/reservation/__card-title/reservation__card-title.css);
+@import url(../blocks/reservation/__card-text/reservation__card-text.css);
+@import url(../blocks/reservation/__card-link/reservation__card-link.css);

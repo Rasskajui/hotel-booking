@@ -1,0 +1,26 @@
+.reservation__card-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #424F7B;
+  text-decoration: none;
+  margin-top: auto;
+  width: max-content;
+  position: relative;
+}
+
+.reservation__card-link::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../../../images/reservation/arrow.svg) no-repeat center;
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  transform: translate(100%, -50%);
+  transition: all 0.2s ease-in-out;
+}
+
+.reservation__card-link:hover::after {
+  right: -14px;
+}

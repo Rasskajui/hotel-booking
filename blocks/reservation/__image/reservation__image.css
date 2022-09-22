@@ -1,0 +1,7 @@
+.reservation__image {
+  width: 27vw;
+  height: calc(489 / 384 * 27vw);
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 32px;
+}
