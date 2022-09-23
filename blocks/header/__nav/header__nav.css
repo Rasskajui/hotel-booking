@@ -14,7 +14,6 @@
 
 @media screen and (max-width: 665px) {
   .header__nav {
-    /* gap: 30px; */
     display: none;
   }
 }
