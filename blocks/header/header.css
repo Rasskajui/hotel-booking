@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 41px 0 32px;
+  padding-top: 41px;
+  padding-bottom: 32px;
 }
 
 @media screen and (max-width: 665px) {
   .header {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: 0 auto;
   }
 }

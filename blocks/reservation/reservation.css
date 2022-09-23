@@ -1,6 +1,6 @@
 .reservation {
-  padding: 80px 0;
-  max-width: 1200px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media screen and (max-width: 468px) {
