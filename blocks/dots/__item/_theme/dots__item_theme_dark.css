@@ -4,5 +4,5 @@
 }
 
 .dots__item_theme_dark:hover {
-  opacity: .8;
+  background-color: #fd95036d;
 }

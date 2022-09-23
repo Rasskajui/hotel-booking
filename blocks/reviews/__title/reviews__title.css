@@ -1,0 +1,9 @@
+.reviews__title {
+  margin-bottom: 62px;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews__title {
+    margin-bottom: 31px;
+  }
+}
