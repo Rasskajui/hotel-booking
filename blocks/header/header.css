@@ -7,18 +7,8 @@
 
 @media screen and (max-width: 665px) {
   .header {
-    width: calc(0.75 * 100vw);
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0 auto;
-    flex-direction: column;
-    gap: 30px;
-    align-items: flex-start;
-
-  }
-}
-
-@media screen and (max-width: 468px) {
-  .header {
-    align-items: center;
   }
 }

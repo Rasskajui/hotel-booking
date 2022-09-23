@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 1024px) {
   .reservation__image {
-    width: 60vw;
-    height: 60vw;
+    width: 70vw;
+    height: 70vw;
   }
 }

@@ -2,6 +2,7 @@
   width: 384px;
   height: 576px;
   object-fit: cover;
+  object-position: top;
   border-radius: 4px;
 }
 
@@ -21,8 +22,9 @@
   }
 }
 
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 425px) {
   .about-us__image {
     align-self: center;
+    height: 55vw;
   }
 }
