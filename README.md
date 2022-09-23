@@ -6,5 +6,12 @@
 
 **Figma**
 
-* Тут можно посмотреть [макет](https://www.figma.com/file/fUtEsAUkM11D4VyV5xnivB/HotelBooking?node-id=0%3A1)
+* [Тут](https://www.figma.com/file/fUtEsAUkM11D4VyV5xnivB/HotelBooking?node-id=0%3A1) можно посмотреть макет
 
+**Особенности**
+
+- БЭМ nested
+- сделаны анимации для первой картинки
+- сглаживание шрифтов
+- картинки оптимизированы
+- некрасивый адаптив

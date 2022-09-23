@@ -5,19 +5,25 @@
   display: grid;
   gap: 3px;
   grid-template-columns: 76% 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, calc(586/1090 * 76vw / 3));
 }
 
 @media screen and (max-width: 768px) {
   .interior__photos {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3fr 1fr;
+    grid-template-rows: calc(586/1090 * 100vw) calc(586/1090 * 100vw / 3);
   }
 }
 
 @media screen and (max-width: 425px) {
   .interior__photos {
     grid-template-columns: 100%;
-    grid-template-rows: 1fr;
+    grid-template-rows: calc(586/1090 * 100vw);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .interior__photos {
+    grid-template-rows: repeat(3, calc(586px / 3));
   }
 }
