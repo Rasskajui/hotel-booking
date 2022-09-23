@@ -1,0 +1,21 @@
+.footer__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #D9DBDE;
+  max-width: 186px;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__subtitle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__subtitle {
+    display: block;
+  }
+}
+
