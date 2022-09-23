@@ -6,3 +6,11 @@
   gap: 24px;
   justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .reservation__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}

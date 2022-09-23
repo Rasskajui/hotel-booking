@@ -6,3 +6,30 @@
   margin: 0 0 59px;
   max-width: 384px;
   }
+
+  @media screen and (max-width: 1280px) {
+    .reservation__card-text {
+      max-width: 27vw;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .reservation__card-text {
+      max-width: 60vw;
+      margin-bottom: 32px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .reservation__card-text {
+      font-size: 14px;
+      margin-bottom: 22px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .reservation__card-text {
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+  }

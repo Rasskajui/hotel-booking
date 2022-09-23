@@ -1,7 +1,21 @@
 .reservation__image {
-  width: 27vw;
-  height: calc(489 / 384 * 27vw);
+  width: 384px;
+  height: 489px;
   border-radius: 4px;
   object-fit: cover;
   margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1280px) {
+  .reservation__image {
+    width: 27vw;
+    height: calc(489 / 384 * 27vw);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .reservation__image {
+    width: 60vw;
+    height: 60vw;
+  }
 }

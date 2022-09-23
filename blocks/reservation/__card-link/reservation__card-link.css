@@ -24,3 +24,15 @@
 .reservation__card-link:hover::after {
   right: -14px;
 }
+
+@media screen and (max-width: 768px) {
+  .reservation__card-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .reservation__card-link {
+    font-size: 14px;
+  }
+}

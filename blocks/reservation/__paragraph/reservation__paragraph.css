@@ -1,3 +1,9 @@
 .reservation__paragraph {
   margin-bottom: 32px;
 }
+
+@media screen and (max-width: 1024px) {
+  .reservation__paragraph {
+    margin-bottom: 24px;
+  }
+}
