@@ -29,6 +29,7 @@
 @import url(../blocks/dropping-image/dropping-image.css);
 
 @import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__content/about-us__content.css);
 @import url(../blocks/about-us/__image/about-us__image.css);
 @import url(../blocks/about-us/__text/about-us__text.css);
 @import url(../blocks/about-us/__title/about-us__title.css);
