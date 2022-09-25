@@ -1,6 +1,6 @@
 .footer__columns {
   display: flex;
-  gap: 77px;
+  gap: 93px;
 }
 
 @media screen and (max-width: 1024px) {
